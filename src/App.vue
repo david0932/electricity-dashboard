@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ElectricityDashboard/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ElectricityDashboard from './components/ElectricityDashboard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ElectricityDashboard
   }
 }
 </script>
@@ -21,6 +20,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e2f;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 </style>
